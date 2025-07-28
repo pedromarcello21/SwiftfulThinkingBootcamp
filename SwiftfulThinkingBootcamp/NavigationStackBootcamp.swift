@@ -18,7 +18,7 @@ struct NavigationStackBootcamp: View {
             ScrollView {
                 VStack(spacing: 20) {
                     
-                    Button("Super sehue!"){
+                    Button("Super segue!"){
                         stackPath.append(contentsOf: ["Coconut", "Watermelon", "Mango"])
                     }
                     
